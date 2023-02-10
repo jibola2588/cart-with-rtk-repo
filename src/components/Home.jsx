@@ -1,6 +1,6 @@
 import React from 'react';
 import { useGetAllProductsQuery } from '../features/ProductApi';
-import { useDispatch } from 'react-redux';
+import { useDispatch,useSelector } from 'react-redux';
 import {addToCart} from '../features/CartSlice'
 import {useNavigate} from 'react-router-dom'
 
@@ -11,6 +11,7 @@ const Home = () => {
  const navigate = useNavigate()
 
  const dispatch = useDispatch()
+
 
  const handleAddToCart = (product) => { 
    console.log(product)

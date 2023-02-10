@@ -252,6 +252,11 @@
   outline: none;
   cursor: pointer;
 }
+.cart-checkout.cart-login{ 
+  color:black;
+  background:yellow;
+}
+
 .continue-shopping,
 .start-shopping {
   margin-top: 1rem;
